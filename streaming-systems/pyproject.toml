@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "streaming-systems"
+version = "0.1.0"
+description = ""
+authors = ["huangkai <h1770360848@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "streaming_systems"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+apache-beam = "^2.53.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
